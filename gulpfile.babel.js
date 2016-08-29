@@ -67,4 +67,4 @@ gulp.task('webpack-dev-server', (callback)=> {
     });
 });
 
-gulp.task('default', ['watch-transform', 'webpack-dev-server']);
+gulp.task('default', ['watch', 'webpack-dev-server']);
